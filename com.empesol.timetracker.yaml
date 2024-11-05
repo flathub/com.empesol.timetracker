@@ -23,7 +23,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/TadejLogar/TimeTrackerAppDesktop.git
-        branch: 95848f91697508341d3a4496d0bb07cba8fdec0e
+        commit: d59cd1db163f3e34959ffedc1042bb99f1afca2f
       - type: file
         url: https://timetracker.empesol.com/files/TimeTrackerApp-linux-x64-1.0.0-release.jar
         only-arches:
