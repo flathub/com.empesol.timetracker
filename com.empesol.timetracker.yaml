@@ -28,7 +28,7 @@ modules:
         url: https://timetracker.empesol.com/files/TimeTrackerApp-linux-x64-1.0.0-release.jar
         only-arches:
           - x86_64
-        sha256: 5f4e8f7950e93235ad18c05f89e8daf74fb04651ef10e97e3152931e4b6cccca
+        sha256: 16020c9566481f5f585e274f179f0bd1d3d599a978c86c6ccbad889b5d83b010
         dest-filename: app.jar
   - name: openjdk
     buildsystem: simple
