@@ -23,12 +23,12 @@ modules:
     sources:
       - type: git
         url: https://github.com/TadejLogar/TimeTrackerAppDesktop.git
-        commit: ccc464dd14f4201b0fd11855d2580c514ca32e01
+        commit: 6441f2c67eb983b3883ebcf6e8bb8944253bc4a9
       - type: file
         url: https://timetracker.empesol.com/files/TimeTrackerApp-linux-x64-1.0.0-release.jar
         only-arches:
           - x86_64
-        sha256: dbc4ce00e01a5f451f3c2dc0ff5cbbf6d3a7958cbbf6f28fae682cb122d87dec
+        sha256: 78ad1ab86749864a1d4dd7e584d1cf656277ca88f4ccb3b0d2d7905597f5ad6f
         dest-filename: app.jar
   - name: openjdk
     buildsystem: simple
