@@ -30,6 +30,11 @@ modules:
           - x86_64
         sha256: e1c87e93b4fc83dfe97b8f2a45a4f0090bf61b514044e97545853cae67f389eb
         dest-filename: app.jar
+        x-checker-data:
+          type: json
+          url: https://timetracker.empesol.com/files/latestRelease.json
+          version-query: .version
+          url-query: .url
   - name: openjdk
     buildsystem: simple
     build-commands:
