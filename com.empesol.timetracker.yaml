@@ -25,10 +25,10 @@ modules:
         url: https://github.com/TadejLogar/TimeTrackerAppDesktop.git
         commit: 299ff2ee9ec69f3dc9e8dda6c002f0debc76509b
       - type: file
-        url: https://timetracker.empesol.com/files/TimeTrackerApp-linux-x64-1.0.30-release.jar
+        url: https://timetracker.empesol.com/files/TimeTrackerApp-linux-x64-1.0.32-release.jar
         only-arches:
           - x86_64
-        sha256: e1c87e93b4fc83dfe97b8f2a45a4f0090bf61b514044e97545853cae67f389eb
+        sha256: 6b513869a3beaed554d10dd253071254d2e4f374698f63d649a33377ae9f8f20
         dest-filename: app.jar
         x-checker-data:
           type: json
@@ -38,4 +38,4 @@ modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - "/usr/lib/sdk/openjdk21/install.sh"
+      - /usr/lib/sdk/openjdk21/install.sh
